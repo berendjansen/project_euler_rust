@@ -1,0 +1,13 @@
+[package]
+name = "project_euler"
+version = "0.1.0"
+edition = "2021"
+authors = ["Berend Jansen"]
+
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+
+[[bin]]
+name = "project_euler"
+path = "src/main.rs"
